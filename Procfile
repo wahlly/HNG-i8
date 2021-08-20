@@ -1,1 +1,1 @@
-web: gunicorn wahlly-resume.wsgi --log-file -
+web: gunicorn my_resume.wsgi --log-file -
