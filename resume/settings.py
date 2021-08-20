@@ -15,7 +15,9 @@ import os
 import mimetypes
 
 from django.urls.conf import path
+import django_heroku
 
+django_heroku.settings(locals())
 
 mimetypes.add_type("text/css", ".css", True)
 
